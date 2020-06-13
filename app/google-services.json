@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "869764029535",
+    "firebase_url": "https://tubescloudprint.firebaseio.com",
+    "project_id": "tubescloudprint",
+    "storage_bucket": "tubescloudprint.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869764029535:android:ec762ac753a38cbb638fea",
+        "android_client_info": {
+          "package_name": "cloud.print2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869764029535-qpma2p4j36afn6l5215kv07qqr42ihs4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cloud.print2",
+            "certificate_hash": "2ea649b8c53acf56fa02c090b33f7f57d4888eca"
+          }
+        },
+        {
+          "client_id": "869764029535-8nuuu070h4kfacjv9t80ckcvamvnnlfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBLwVd5fVoB-JN_KHcG4iS689Qlacma5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869764029535-8nuuu070h4kfacjv9t80ckcvamvnnlfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869764029535:android:e4f3e00c6da69cdb638fea",
+        "android_client_info": {
+          "package_name": "com.phoneauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869764029535-8nuuu070h4kfacjv9t80ckcvamvnnlfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBLwVd5fVoB-JN_KHcG4iS689Qlacma5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869764029535-8nuuu070h4kfacjv9t80ckcvamvnnlfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

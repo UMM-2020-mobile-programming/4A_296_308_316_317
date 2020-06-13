@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".Login">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="75dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="212dp"
+            android:layout_height="112dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logooo"
+            android:contentDescription="@string/todo" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/text"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textPersonName"
+            tools:ignore="MissingConstraints,TextFields"
+            tools:layout_editor_absoluteX="71dp"
+            tools:layout_editor_absoluteY="240dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/text"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="71dp"
+            tools:layout_editor_absoluteY="240dp"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/buttonlogin"
+            android:layout_width="186dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button"
+            android:text="@string/login"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="150dp" />
+
+        <Button
+            android:id="@+id/buttonregis"
+            android:layout_width="186dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:text="@string/regis"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

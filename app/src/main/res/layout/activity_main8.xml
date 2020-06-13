@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/background">
+        <TextView
+            android:textColor="@android:color/white"
+            android:text="Upload Document"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+        <EditText
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="20sp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Choose Document"/>
+        <Button
+            android:id="@+id/bt_unggah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload File"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginRight="90dp"
+            android:textColor="@android:color/white"
+            android:background="#000080"/>
+        <TextView
+            android:textColor="@android:color/white"
+            android:text="Ekstensi file yang diperbolehkan adalah .pdf, .png, .jpg dengan besar file maksimum 20 mb"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:id="@+id/cbKirim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dikirim"
+            android:textSize="20sp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="35dp"/>
+        <CheckBox
+            android:id="@+id/cbAmbil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diambil"
+            android:textSize="20sp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:id="@+id/total"
+            android:textColor="@android:color/white"
+            android:text="Total : "
+            android:textStyle="bold"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/bt_lanjut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pesan"
+            android:onClick="ShowPopup"
+            android:textSize="20sp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/shape_button"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+</LinearLayout>
